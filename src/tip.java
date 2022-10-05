@@ -45,10 +45,11 @@ public class tip {
 
 //-----------------------------------------------------------------------------------------------
 
-        //Displaying all numbers, rounded to two decimal places
+        //Displaying all numbers, rounded to two decimal places using String.format
         System.out.println("---------");
         System.out.println("| COSTS |");
         System.out.println("---------");
+        
         System.out.println("Tip: $" + String.format("%.2f", tip));
         System.out.println("Total: $" + String.format("%.2f", total));
         System.out.println("Tip per person: $" + String.format("%.2f", tipPerPerson));
